@@ -17,6 +17,10 @@
 		11E7005627A007B900BC4922 /* Persons_App_DesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7005527A007B900BC4922 /* Persons_App_DesignTests.swift */; };
 		11E7006027A007B900BC4922 /* Persons_App_DesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7005F27A007B900BC4922 /* Persons_App_DesignUITests.swift */; };
 		11E7006227A007B900BC4922 /* Persons_App_DesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7006127A007B900BC4922 /* Persons_App_DesignUITestsLaunchTests.swift */; };
+		11E7006F27A012BF00BC4922 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7006E27A012BF00BC4922 /* HomePageVC.swift */; };
+		11E7007127A0164200BC4922 /* AddPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7007027A0164200BC4922 /* AddPersonVC.swift */; };
+		11E7007527A016DA00BC4922 /* DetailPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7007427A016DA00BC4922 /* DetailPersonVC.swift */; };
+		11E7007727A016F400BC4922 /* UpdatePersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E7007627A016F400BC4922 /* UpdatePersonVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		11E7005B27A007B900BC4922 /* Persons_App_DesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Persons_App_DesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E7005F27A007B900BC4922 /* Persons_App_DesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons_App_DesignUITests.swift; sourceTree = "<group>"; };
 		11E7006127A007B900BC4922 /* Persons_App_DesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons_App_DesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11E7006E27A012BF00BC4922 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		11E7007027A0164200BC4922 /* AddPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonVC.swift; sourceTree = "<group>"; };
+		11E7007427A016DA00BC4922 /* DetailPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonVC.swift; sourceTree = "<group>"; };
+		11E7007627A016F400BC4922 /* UpdatePersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				11E7004927A007B900BC4922 /* LaunchScreen.storyboard */,
 				11E7004C27A007B900BC4922 /* Info.plist */,
 				11E7004427A007B500BC4922 /* Persons_App_Design.xcdatamodeld */,
+				11E7006E27A012BF00BC4922 /* HomePageVC.swift */,
+				11E7007027A0164200BC4922 /* AddPersonVC.swift */,
+				11E7007427A016DA00BC4922 /* DetailPersonVC.swift */,
+				11E7007627A016F400BC4922 /* UpdatePersonVC.swift */,
 			);
 			path = Persons_App_Design;
 			sourceTree = "<group>";
@@ -261,8 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E7006F27A012BF00BC4922 /* HomePageVC.swift in Sources */,
+				11E7007527A016DA00BC4922 /* DetailPersonVC.swift in Sources */,
+				11E7007727A016F400BC4922 /* UpdatePersonVC.swift in Sources */,
 				11E7004027A007B500BC4922 /* ViewController.swift in Sources */,
 				11E7003C27A007B500BC4922 /* AppDelegate.swift in Sources */,
+				11E7007127A0164200BC4922 /* AddPersonVC.swift in Sources */,
 				11E7004627A007B500BC4922 /* Persons_App_Design.xcdatamodeld in Sources */,
 				11E7003E27A007B500BC4922 /* SceneDelegate.swift in Sources */,
 			);
